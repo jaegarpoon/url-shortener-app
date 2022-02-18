@@ -5,6 +5,7 @@ import {
   faCircleExclamation,
   faCheckCircle,
   faSpinner,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./UrlInput.css";
@@ -45,10 +46,17 @@ const UrlInput = () => {
     <div className="input-container">
       <div className="trimmed-container">
         <div className="form-container">
-          <form>
-            <input onChange={handleInputChange} value={url} />
-            <button onClick={handleSubmit}>Submit</button>
-          </form>
+          <input
+            placeholder="Enter URL"
+            onChange={handleInputChange}
+            value={url}
+          />
+          {/* <button onClick={handleSubmit}>Submit</button> */}
+          <FontAwesomeIcon
+            onClick={handleSubmit}
+            icon={faArrowRight}
+            className="submit-button"
+          />
         </div>
         {!loading && response && error && (
           <div className="response-container error">

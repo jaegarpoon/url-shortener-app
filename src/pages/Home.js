@@ -7,15 +7,15 @@ import UrlInput from "../components/UrlInput";
 
 const Home = () => {
   return (
-    <React.Fragment>
+    <div className="home-container">
       <div className="title-container">
         <div className="icon-container">
           <FontAwesomeIcon icon={faLink} className="header-icon" />
         </div>
-        <h1>Build your own custom short URL!</h1>
+        <p className="header-text">SH-O-RT</p>
       </div>
       <UrlInput />
-    </React.Fragment>
+    </div>
   );
 };
 

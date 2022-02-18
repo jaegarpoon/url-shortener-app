@@ -5,8 +5,7 @@
 }
 
 body {
-  /* background-color: rgb(231, 231, 233); */
-  background-color: rgba(162, 194, 226, 0.479);
+  background: #161414ec;
   display: flex;
   flex-direction: column;
   align-items: center;
