@@ -1,0 +1,20 @@
+.title-container {
+  margin: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-icon {
+  height: 3rem;
+  color: white;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 20px;
+  background-color: rgb(114, 141, 167);
+}
