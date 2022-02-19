@@ -47,7 +47,7 @@ const UrlInput = () => {
       <div className="trimmed-container">
         <div className="form-container">
           <input
-            placeholder="Enter URL"
+            placeholder="Enter URL to shorten"
             onChange={handleInputChange}
             value={url}
           />
