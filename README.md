@@ -3,6 +3,10 @@
 This project allows users to input a valid URL and converts it into a shortened URL
 with a random postfix string.
 
+The frontend is an interactive UI built on React.js.
+
+Open [https://app-sh-o-rt.herokuapp.com/](https://app-sh-o-rt.herokuapp.com/) to view it in your browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
